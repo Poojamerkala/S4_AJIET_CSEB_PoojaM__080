@@ -1,0 +1,17 @@
+class Main {
+    public static void main(String[] args) {
+        int d=0;
+        int n=123456789;
+        int a=n;
+        int lar=0;
+        while(n>0){
+            d=n%10;
+            if(d>lar){
+                lar=d;
+            }
+            n=n/10;
+        }
+        System.out.println("Number="+a);
+        System.out.println("Largest="+lar);
+    }
+}
