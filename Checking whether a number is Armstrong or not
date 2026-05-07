@@ -1,0 +1,21 @@
+class Main {
+    public static void main(String[] args) {
+        int dig=0;
+        int n=153;
+        int a=n;
+        int sum=0;
+        while(n>0){
+            dig=n%10;
+            sum=sum+(dig*dig*dig);
+            n=n/10;
+        }
+        System.out.println("Number="+a);
+        System.out.println("Sum of the numbers="+sum);
+        if((sum==a)){
+            System.out.println("Number is Armstrong");
+        }
+        else{
+            System.out.println("Number is Not Armstrong");
+        }
+    }
+}
