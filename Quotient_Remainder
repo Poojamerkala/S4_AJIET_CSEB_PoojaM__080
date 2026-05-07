@@ -1,0 +1,9 @@
+class Main {
+    public static void main(String[] args) {
+        int a=20,b=4;
+        int c=a/b;
+        System.out.println("Quotient="+c);
+        int d=a%b;
+        System.out.println("Remainder="+d);
+    }
+}
